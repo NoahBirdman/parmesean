@@ -1,0 +1,55 @@
+{
+    "0": {
+        "0x00": {
+            "name": "Device ID",
+            "length": 2
+        },
+        "0x07": {
+            "dec": 7.0,
+            "name": "Status",
+            "length": 15
+        },
+        "0x16": {
+            "dec": 22.0,
+            "name": "Monitor",
+            "length": 18,
+            "format": "linear",
+            "units": "°C",
+            "slope": 0.0078125,
+            "offset": 0.0,
+            "endian": "big",
+            "signed": 1.0
+        },
+        "0x28": {
+            "dec": 40.0,
+            "name": "Control",
+            "length": 45
+        },
+        "0x5F": {
+            "dec": 95.0,
+            "name": "Interrupt Mask",
+            "length": 15
+        },
+        "0x6E": {
+            "dec": 110.0,
+            "name": "Vendor Specific",
+            "length": 9
+        },
+        "0x77": {
+            "dec": 119.0,
+            "name": "Password",
+            "length": 18,
+            "format": "linear",
+            "units": "°C",
+            "slope": 0.0078125,
+            "offset": 0.0,
+            "endian": "big",
+            "signed": 1.0
+        },
+        "0x7F": {
+            "dec": 127.0,
+            "name": "Upper Page Select",
+            "length": 1
+        }
+    }
+}

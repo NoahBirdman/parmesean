@@ -1,0 +1,58 @@
+{
+    "0": {
+        "0x00": {
+            "name": "Read Temp",
+            "length": 2,
+            "format": "linear",
+            "units": "°C",
+            "slope": 0.0078125,
+            "offset": 0.0,
+            "endian": "big",
+            "signed": 1.0
+        },
+        "0x01": {
+            "name": "Config",
+            "length": 2
+        },
+        "0x02": {
+            "name": "Tlow_Limit",
+            "length": 2,
+            "format": "linear",
+            "units": "°C",
+            "slope": 0.0078125,
+            "offset": 0.0,
+            "endian": "big",
+            "signed": 1.0
+        },
+        "0x03": {
+            "name": "EEPROM_UL",
+            "length": 2
+        },
+        "0x04": {
+            "name": "EEPROM1",
+            "length": 2
+        },
+        "0x05": {
+            "name": "EEPROM2",
+            "length": 2
+        },
+        "0x06": {
+            "name": "Temp_Offset",
+            "length": 2,
+            "format": "linear",
+            "units": "°C",
+            "slope": 0.0078125,
+            "offset": 0.0,
+            "endian": "big",
+            "signed": 1.0
+        },
+        "0x07": {
+            "name": "EEPROM3",
+            "length": 2
+        },
+        "0x0F": {
+            "name": "Device ID",
+            "length": 2
+        }
+    }
+}
